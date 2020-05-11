@@ -1,0 +1,6 @@
+# clock pin for Basys2 Board
+NET "CLK" LOC = "B8"; # Bank = 0, Signal name = MCLK
+NET "RST" LOC = "G12"; # Bank = 0, Signal name = BTN0
+
+NET "TX" LOC = "C6"  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = JB1
+NET "RX" LOC = "B6"  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = JB2										
